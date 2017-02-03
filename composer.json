@@ -1,0 +1,20 @@
+{
+    "name": "singularity/servant",
+    "description": "Servant - Dependency Injection Mechanism",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthias Kaschubowski",
+            "email": "nihylum@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Singularity\\Servant\\": "."
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    }
+}
